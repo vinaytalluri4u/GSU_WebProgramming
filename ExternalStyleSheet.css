@@ -1,0 +1,113 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+header
+{
+  background-image:url('./image.png');
+  height: 1800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.center {
+    display: grid;
+    place-items: center;
+    text-align:center;
+    display:block
+  }
+  table { 
+    width: 30%;
+    margin-left: auto;
+  margin-right: auto;
+    }
+  
+  th, td {
+    text-align: center;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #badecc;
+  }
+  tr:nth-child(odd) {
+    background-color: #ccffe6	;
+  }
+  ul {
+    display: table;
+    margin: 0 auto;
+  }
+  .listCenter{
+    display: table;
+    margin: 0 auto;
+  }
+  .profilePhoto
+  {
+height: 250px;
+  }
+  li
+  {
+    font-size:large;
+    color:brown;
+  }
+  .heading{
+    color:black
+  }
+  li + li {
+    margin-top: 10px;
+  }
+  .cs{
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    font-size: 23px;
+    color: blue;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+  }
+  .cssFile
+  {
+    position: absolute;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    left: 19px;
+  }
+  .cssFile:hover
+  {
+    color: red;
+  }
+  .cs:hover{
+    color: red;
+    font-weight: bold;
+  }
+  .gsu{
+    position: absolute;
+    top: 10px;
+    right: 19px;
+    font-size:23px;
+  color: blue;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  }
+  .gsu:hover{
+    color: red;
+    font-weight: bold;
+  }
+  .listlink:hover, .listlink:visited, .listlink:link, .listlink:active
+  {
+      text-decoration: none;
+      color:inherit
+  }
+  .listlink:hover{
+    font-size: larger;
+  }
+  .quote{
+    font-family:cursive;
+    font-size:larger;
+  }
+  .assignmentURL:hover{
+   color:red
+  }
